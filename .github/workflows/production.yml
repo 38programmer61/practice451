@@ -37,9 +37,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Npm Install
       run: |
+        cd front-end/playground/ 
         yarn install
     - name: Production Build
       run: |
+        cd front-end/playground/
         sudo yarn build
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
