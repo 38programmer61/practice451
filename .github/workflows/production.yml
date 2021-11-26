@@ -38,6 +38,7 @@ jobs:
     - name: Npm Install
       run: |
         cd front-end/playground/ 
+        ls
         yarn install
     - name: Production Build
       run: |
