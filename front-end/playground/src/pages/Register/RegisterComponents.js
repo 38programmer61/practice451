@@ -20,7 +20,7 @@ function RegisterComponents({Register, error}) {
 
         Register(details)
         
-        window.location.href = '/login'
+        //window.location.href = '/login'
     }
     const paperStyle={padding :30, width:480, margin:"3rem auto"}
     const btnstyle={margin:'8px 0'}

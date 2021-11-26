@@ -23,15 +23,17 @@ function Register() {
             //redirectToHome();
             console.log("Registered in")
             console.log(response)
+            
 
         } else{
             console.log("Some error ocurred");
         }
+        window.location.href = '/login'
     })
     .catch(function (error) {
         console.log(error);
     });  
-
+    
     console.log(details);
 
 

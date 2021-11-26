@@ -240,7 +240,7 @@ function Profile() {
                     level = level.length === 0 ? 0 : Number(level[0].skill_level);
                     return (<div key={sport} className="lowerInput" style={{}}>
                         <Label for={sport}>
-                            {`${sport}: ${level || 0}`}
+                            {`${sport}`}
                         </Label>
                         <Input
                             id={sport}
